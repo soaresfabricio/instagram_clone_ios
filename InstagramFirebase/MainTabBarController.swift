@@ -27,7 +27,12 @@ class MainTabBarController : UITabBarController {
             }
             return
         }
+        
+        setupViewControllers()
+
+    }
     
+    func setupViewControllers() {
         let layout = UICollectionViewFlowLayout()
         
         let userProfileController = UserProfileController(collectionViewLayout: layout)
@@ -43,6 +48,5 @@ class MainTabBarController : UITabBarController {
         
         // Views that will be shown as tabs on the bottom
         viewControllers = [navController, UIViewController()]
-        
     }
 }
