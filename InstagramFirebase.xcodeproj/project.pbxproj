@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7D34FD6259BBB315C1017846 /* Pods_InstagramFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 072FE8261506F87CF603AF61 /* Pods_InstagramFirebase.framework */; };
+		7F4FD51D2450E67E0096EBEC /* PhotoSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4FD51C2450E67E0096EBEC /* PhotoSelectorViewController.swift */; };
 		7F6C7F1424478769009EF494 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6C7F1324478769009EF494 /* AppDelegate.swift */; };
 		7F6C7F1624478769009EF494 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6C7F1524478769009EF494 /* SceneDelegate.swift */; };
 		7F6C7F1824478769009EF494 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6C7F1724478769009EF494 /* SignUpController.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		072FE8261506F87CF603AF61 /* Pods_InstagramFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F4FD51C2450E67E0096EBEC /* PhotoSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorViewController.swift; sourceTree = "<group>"; };
 		7F6C7F1024478769009EF494 /* InstagramFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F6C7F1324478769009EF494 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F6C7F1524478769009EF494 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				7F6C7F1324478769009EF494 /* AppDelegate.swift */,
 				7F6C7F1524478769009EF494 /* SceneDelegate.swift */,
 				7F721FD0244B4D6100790D8D /* MainTabBarController.swift */,
+				7F4FD51C2450E67E0096EBEC /* PhotoSelectorViewController.swift */,
 				7F721FD2244B626000790D8D /* UserProfileController.swift */,
 				7F6C7F1924478769009EF494 /* Main.storyboard */,
 				7F6C7F1C2447876A009EF494 /* Assets.xcassets */,
@@ -240,6 +243,7 @@
 			files = (
 				7F6C7F1824478769009EF494 /* SignUpController.swift in Sources */,
 				7F6C7F1424478769009EF494 /* AppDelegate.swift in Sources */,
+				7F4FD51D2450E67E0096EBEC /* PhotoSelectorViewController.swift in Sources */,
 				7F721FD3244B626000790D8D /* UserProfileController.swift in Sources */,
 				7F721FD1244B4D6100790D8D /* MainTabBarController.swift in Sources */,
 				7F6C7F1624478769009EF494 /* SceneDelegate.swift in Sources */,

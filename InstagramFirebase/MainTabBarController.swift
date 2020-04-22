@@ -15,6 +15,19 @@ class MainTabBarController: UITabBarController, UITabBarControllerDelegate {
         
         if let index = viewControllers?.firstIndex(of: viewController) {
             if index == 2 {
+                
+                let layout = UICollectionViewFlowLayout()
+                let photoSelectorController = PhotoSelectorViewController(collectionViewLayout: layout)
+                
+                
+                let photoSelectorNavigationController = UINavigationController(rootViewController: photoSelectorController)
+                
+                
+                photoSelectorNavigationController.modalPresentationStyle = .fullScreen
+                
+                
+                present(photoSelectorNavigationController, animated: true)
+                
                 return false
             }
         }
