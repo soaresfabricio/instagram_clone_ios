@@ -26,6 +26,8 @@ class SignUpController: UIViewController, UIImagePickerControllerDelegate, UINav
         let picker = UIImagePickerController()
         picker.delegate = self
         present(picker, animated: true)
+        
+        
     }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey: Any]) {
